@@ -21,6 +21,13 @@ Para verificar a documentação no swagger basta entrar:
 
 `http://127.0.0.1:5000/apidocs`
 
+## API Externas
+ 1. Utilizei a getLocation para pegar as coordenadas do endereço colocado
+     1. API key da getLocation: 0e51a6e45511417ca30a54aac169e293
+       
+ 2. Utilizei a OpenStreetMap para mostrar a localizacao das coordenadas no mapa.
+    1. Não é necessário uso de nenhuma API key para a mesma, sendo ela utilizada diretamente no front-end.
+       
 ## Para o Dockerfile
 1. Instale o Docker em sua máquina
 2. Depois utilize o comando `docker build -t (nome do container) .` para criar o container.
