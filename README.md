@@ -23,7 +23,7 @@ Para verificar a documentação no swagger basta entrar:
 
 ## Para o Dockerfile
 1. Instale o Docker em sua máquina
-2. Depois utilize o comando -- **_docker build -t (nome do container) ._**  -- para criar o container.
-3. E por fim para rodar **_docker run -d --name (nome do container) --network (nome da network) -p 8080:80 (nome da container image)_**
+2. Depois utilize o comando `docker build -t (nome do container) .` para criar o container.
+3. E por fim para rodar `docker run -d --name (nome do container) --network (nome da network) -p 8080:80 (nome da container image)`
     1. Talvez seja necessário criar o network para integrar o front e o back.
-    2. Utilize este comando para a criação do network **_docker network create (nome da network)_**
+    2. Utilize este comando para a criação do network `docker network create (nome da network)`
