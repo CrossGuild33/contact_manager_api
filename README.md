@@ -34,3 +34,11 @@ Para verificar a documentação no swagger basta entrar:
 3. E por fim para rodar `docker run -d --name (nome do container) --network (nome da network) -p 8080:80 (nome da container image)`
     1. Talvez seja necessário criar o network para integrar o front e o back.
     2. Utilize este comando para a criação do network `docker network create (nome da network)`
+
+____
+
+## Meu Aprendizado
+ O projeto foi importante para mim principalmente no aprendizado prático de tecnologias como:
+1. `Flask` - Python Framework. 
+2. Uso de containirização com `Docker`.
+3. Uso profissional dos comentários e códigos organizados.
