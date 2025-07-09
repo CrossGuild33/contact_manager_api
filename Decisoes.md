@@ -48,4 +48,11 @@ Facilitou a padronização do ambiente entre desenvolvimento e produção, elimi
 - **CI/CD**: Integrar ferramentas de integração e entrega contínua, como **GitHub Actions** ou **GitLab CI**, para:
   - Rodar testes automáticos
   - Verificar qualidade do código
-  - A
+  - Automatizar o deploy em ambientes de staging ou produção
+- **Segurança**:
+  - Configuração adequada do CORS para evitar exposição indevida.
+  - Implementação de variáveis de ambiente para dados sensíveis (ex: Flask `SECRET_KEY`, credenciais de banco).
+- **Deploy**:
+  - Automatizar o deploy em serviços como **Render**, **Fly.io** ou **Railway** para facilitar escalabilidade.
+  - Considerar orquestração com **Docker Compose** em ambientes mais complexos.
+
